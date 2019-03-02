@@ -1,6 +1,6 @@
 import networkx
 import matplotlib.pyplot as plt
-G = networkx.read_adjlist("/Volumes/Transcend/KONE计价工具/py/relation9.adjlist", "rb", encoding="UTF-8-sig")
+G = networkx.read_adjlist("/Volumes/Transcend/KONE计价工具/py/relation.adjlist", "rb", encoding="UTF-8-sig")
 create_using = networkx.Graph(G)
 pos = networkx.spring_layout(G)
 networkx.draw(G,
